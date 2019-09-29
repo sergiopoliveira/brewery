@@ -58,7 +58,6 @@ public class BeerControllerV2 {
         });
 
         return new ResponseEntity<>(errors, HttpStatus.BAD_REQUEST);
-
     }
 
 }
